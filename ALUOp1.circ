@@ -56,6 +56,14 @@
     <a name="circuit" val="ALUOP3"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <rect fill="none" height="35" stroke="#000000" width="59" x="50" y="50"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="81" y="68">ALUCtrl</text>
+      <circ-anchor facing="east" x="80" y="50"/>
+      <circ-port dir="in" pin="170,110" x="50" y="60"/>
+      <circ-port dir="in" pin="170,140" x="50" y="70"/>
+      <circ-port dir="out" pin="670,110" x="80" y="50"/>
+    </appear>
     <comp lib="0" loc="(170,110)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="OP"/>

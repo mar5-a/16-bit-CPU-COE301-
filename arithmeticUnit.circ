@@ -107,6 +107,7 @@
       <a name="width" val="16"/>
     </comp>
     <comp lib="3" loc="(400,370)" name="Comparator">
+      <a name="mode" val="unsigned"/>
       <a name="width" val="16"/>
     </comp>
     <wire from="(100,160)" to="(230,160)"/>
