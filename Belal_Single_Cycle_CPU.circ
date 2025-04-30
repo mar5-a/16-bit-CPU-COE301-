@@ -18,9 +18,9 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <lib desc="file#Belal_ALU.circ" name="12"/>
-  <lib desc="file#SplitMain.circ" name="13"/>
-  <lib desc="file#CU.circ" name="14"/>
+  <lib desc="file#CU.circ" name="12"/>
+  <lib desc="file#Belal_ALU.circ" name="13"/>
+  <lib desc="file#SplitMain.circ" name="14"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -91,8 +91,8 @@
     <comp lib="0" loc="(610,270)" name="Constant">
       <a name="width" val="16"/>
     </comp>
-    <comp lib="12" loc="(1410,360)" name="ALU"/>
-    <comp lib="13" loc="(1030,330)" name="Splt"/>
+    <comp lib="13" loc="(1410,360)" name="ALU"/>
+    <comp lib="14" loc="(1030,330)" name="Splt"/>
     <comp lib="2" loc="(1090,420)" name="Multiplexer">
       <a name="size" val="20"/>
       <a name="width" val="3"/>
