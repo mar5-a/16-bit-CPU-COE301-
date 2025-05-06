@@ -19,9 +19,9 @@
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
   <lib desc="file#shiftUnit.circ" name="12"/>
-  <lib desc="file#reverseUnit.circ" name="13"/>
-  <lib desc="file#arithmeticUnit.circ" name="14"/>
-  <lib desc="file#logicUnit.circ" name="15"/>
+  <lib desc="file#logicUnit.circ" name="13"/>
+  <lib desc="file#reverseUnit.circ" name="14"/>
+  <lib desc="file#arithmeticUnit.circ" name="15"/>
   <main name="ALU"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -112,9 +112,9 @@
       <a name="output" val="true"/>
     </comp>
     <comp lib="12" loc="(680,110)" name="shiftUnit"/>
-    <comp lib="13" loc="(680,450)" name="reverse"/>
-    <comp lib="14" loc="(680,230)" name="arithmeticUnit"/>
-    <comp lib="15" loc="(680,340)" name="logicUnit"/>
+    <comp lib="13" loc="(680,340)" name="logicUnit"/>
+    <comp lib="14" loc="(680,450)" name="reverse"/>
+    <comp lib="15" loc="(680,230)" name="arithmeticUnit"/>
     <comp lib="2" loc="(830,240)" name="Multiplexer">
       <a name="select" val="2"/>
       <a name="size" val="20"/>
@@ -136,9 +136,9 @@
     <wire from="(360,150)" to="(460,150)"/>
     <wire from="(360,290)" to="(360,380)"/>
     <wire from="(360,290)" to="(440,290)"/>
-    <wire from="(360,380)" to="(360,470)"/>
+    <wire from="(360,380)" to="(360,490)"/>
     <wire from="(360,380)" to="(460,380)"/>
-    <wire from="(360,470)" to="(460,470)"/>
+    <wire from="(360,490)" to="(460,490)"/>
     <wire from="(380,230)" to="(380,450)"/>
     <wire from="(380,230)" to="(420,230)"/>
     <wire from="(380,450)" to="(460,450)"/>
@@ -153,7 +153,9 @@
     <wire from="(430,130)" to="(460,130)"/>
     <wire from="(430,250)" to="(430,360)"/>
     <wire from="(430,250)" to="(460,250)"/>
+    <wire from="(430,360)" to="(430,470)"/>
     <wire from="(430,360)" to="(460,360)"/>
+    <wire from="(430,470)" to="(460,470)"/>
     <wire from="(440,270)" to="(440,290)"/>
     <wire from="(440,270)" to="(460,270)"/>
     <wire from="(460,110)" to="(470,110)"/>
