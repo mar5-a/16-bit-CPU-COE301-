@@ -18,8 +18,8 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <lib desc="file#CU.circ" name="12"/>
-  <lib desc="file#ALUOp1.circ" name="13"/>
+  <lib desc="file#ALUOp1.circ" name="12"/>
+  <lib desc="file#CU.circ" name="13"/>
   <lib desc="file#SplitMain.circ" name="14"/>
   <lib desc="file#Belal_ALU.circ" name="15"/>
   <main name="main"/>
@@ -111,7 +111,7 @@
     </comp>
     <comp lib="0" loc="(1120,470)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="REVSrc"/>
+      <a name="label" val="REV_SRC"/>
       <a name="labelfont" val="SansSerif plain 10"/>
     </comp>
     <comp lib="0" loc="(1160,470)" name="Tunnel">
@@ -177,7 +177,7 @@
       <a name="labelfont" val="SansSerif plain 10"/>
     </comp>
     <comp lib="0" loc="(1390,700)" name="Tunnel">
-      <a name="label" val="REVSrc"/>
+      <a name="label" val="REV_SRC"/>
       <a name="labelfont" val="SansSerif plain 10"/>
     </comp>
     <comp lib="0" loc="(1490,460)" name="Tunnel">
@@ -242,7 +242,7 @@
     <comp lib="1" loc="(1300,280)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="12" loc="(990,570)" name="CUv2"/>
+    <comp lib="13" loc="(990,570)" name="CUv2"/>
     <comp lib="14" loc="(930,330)" name="Splt"/>
     <comp lib="15" loc="(1410,330)" name="ALU"/>
     <comp lib="2" loc="(1080,440)" name="Multiplexer">
